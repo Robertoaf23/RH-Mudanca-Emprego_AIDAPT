@@ -1,0 +1,61 @@
+{
+  "PROJETO": "HR-Job-Change",
+  "TARGET": "procura_mudanca_emprego",
+  "PROBLEM_TYPE": "classificacao",
+  "ID_COLS": [
+    "id_candidato"
+  ],
+  "NUM_COLS": [
+    "indice_desenvolvimento_cidade",
+    "anos_experiencia",
+    "anos_desde_ultimo_emprego",
+    "n_nulos",
+    "horas_formacao_log"
+  ],
+  "CAT_COLS": [
+    "nivel_educacao",
+    "genero",
+    "experiencia_relevante",
+    "inscricao_universidade",
+    "area_formacao",
+    "dimensao_empresa",
+    "tipo_empresa"
+  ],
+  "RANDOM_STATE": 42,
+  "TEST_SIZE": 0.2,
+  "ESTRATEGIA_NUM": "median",
+  "ESTRATEGIA_CAT": "constant",
+  "ADD_INDICATOR": false,
+  "SCALER": "RobustScaler",
+  "USAR_PCA": false,
+  "BIN_COLS": [
+    "empresa_em_falta",
+    "nunca_mudou_emprego"
+  ],
+  "ORD_COLS": [
+    "nivel_educacao"
+  ],
+  "NOM_COLS": [
+    "genero",
+    "experiencia_relevante",
+    "inscricao_universidade",
+    "area_formacao",
+    "dimensao_empresa",
+    "tipo_empresa"
+  ],
+  "ORDENS": {
+    "nivel_educacao": [
+      "Em falta",
+      "Ensino Básico",
+      "Ensino Secundário",
+      "Licenciatura",
+      "Mestrado",
+      "Doutoramento"
+    ]
+  },
+  "FILL_VALUE_CAT": "Em falta",
+  "MAPA_TARGET": {
+    "Não": 0,
+    "Sim": 1
+  }
+}

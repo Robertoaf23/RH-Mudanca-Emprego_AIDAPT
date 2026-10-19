@@ -1,2 +1,0 @@
-Colocar aqui o dataset original (nunca alterar este ficheiro).
-Criar também as pastas Data/output, Data/analytics e Data/models (ou deixar o notebook 02 criá-las).

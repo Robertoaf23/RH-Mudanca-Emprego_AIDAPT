@@ -1,0 +1,79 @@
+{
+  "colunas_removidas_selecao": [
+    "cidade"
+  ],
+  "colunas_removidas_redundancia": [
+    "horas_formacao",
+    "escalao_experiencia"
+  ],
+  "conversao_anos_experiencia": {
+    "Menos de 1 ano": 0,
+    "Mais de 20 anos": 21
+  },
+  "conversao_anos_desde_ultimo_emprego": {
+    "Nunca": 0,
+    "Mais de 4 anos": 5
+  },
+  "regras_validade": {
+    "indice_desenvolvimento_cidade": [
+      0.0,
+      1.0
+    ],
+    "horas_formacao": [
+      1.0,
+      1000.0
+    ],
+    "anos_experiencia": [
+      0.0,
+      21.0
+    ],
+    "anos_desde_ultimo_emprego": [
+      0.0,
+      5.0
+    ]
+  },
+  "codigos_missing": [
+    999,
+    9999,
+    -1,
+    -999
+  ],
+  "mapa_target": {
+    "Não": 0,
+    "Sim": 1
+  },
+  "novas_features": [
+    "empresa_em_falta",
+    "n_nulos",
+    "horas_formacao_log",
+    "nunca_mudou_emprego",
+    "escalao_experiencia"
+  ],
+  "tratamento_outliers": "manter",
+  "limites_iqr_treino": {
+    "indice_desenvolvimento_cidade": [
+      0.4699999999999999,
+      1.1900000000000002
+    ],
+    "anos_experiencia": [
+      -14.0,
+      34.0
+    ],
+    "anos_desde_ultimo_emprego": [
+      -2.0,
+      6.0
+    ],
+    "horas_formacao": [
+      -74.5,
+      185.5
+    ],
+    "n_nulos": [
+      -3.0,
+      5.0
+    ],
+    "horas_formacao_log": [
+      1.212180021271655,
+      6.45451017880843
+    ]
+  }
+}
